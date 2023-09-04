@@ -1,0 +1,116 @@
+<resources>
+    //Interface Main
+    <string name="app_name">Game Store</string>
+    <string name="grid">Grid</string>
+    <string name="list">List</string>
+    <string name="title">NameofGame</string>
+    <string name="description">Detail game</string>
+    <string name="about">About Me</string>
+
+    //Interface Detail
+    <string name="price">Price</string>
+    <string name="description_price">dummy price</string>
+    <string name="release">Release</string>
+    <string name="description_release">dummy release</string>
+    <string name="share">Share Now!</string>
+
+    //Interface About Name of Game
+    <string-array name="data_name">
+        <item>Aquarist</item>
+        <item>Endless Memories</item>
+        <item>Jump Force</item>
+        <item>Left 4 Dead 2</item>
+        <item>Mall of Mayhem</item>
+        <item>Minecraft</item>
+        <item>MotoGP 2023</item>
+        <item>NAruto Ninja Storm 4</item>
+        <item>Need fo Speed</item>
+        <item>PES 2023</item>
+        <item>Red Redmption 2</item>
+        <item>Resident Evil 4</item>
+        <item>Spiderman</item>
+        <item>Split</item>
+        <item>Suicideguy</item>
+    </string-array>
+
+
+    //Interface About Description
+    <string-array name="data_description">
+        <item>Aquarist is game to dive into the world of aquatic wonders as an Aquarist. In this game, you take on the role of a marine enthusiast tasked with building and managing your very own underwater paradise. Care for a wide variety of marine life, create stunning aquariums, and satisfy the needs of your virtual aquatic creatures in this immersive simulation game..</item>
+        <item> Embark on an epic adventure in Endless Memories. This action-packed game invites players to explore a vast, mysterious world filled with ancient ruins, formidable foes, and hidden secrets. Uncover the history of this captivating realm as you battle through challenging dungeons, solve intricate puzzles, and forge your destiny in a beautifully crafted, narrative-driven experience.</item>
+        <item>Jump into the arena and clash with your favorite anime heroes and villains in Jump Force. This crossover fighting game brings together iconic characters from various manga and anime series to engage in intense battles in stunning 3D environments. Choose your hero, form a team, and unleash powerful combos and special moves in epic showdowns.</item>
+        <item>Survive the zombie apocalypse with your friends in Left 4 Dead 2. This cooperative first-person shooter thrusts you into a world overrun by hordes of infected creatures. Team up with fellow survivors to navigate through post-apocalyptic landscapes, scavenge for supplies, and fend off relentless waves of undead in a heart-pounding fight for survival.</item>
+        <item>Unleash chaos in the Mall of Mayhem, a satirical and humorous simulation game. As a mischievous shopper, your goal is to cause as much mayhem as possible within a bustling shopping mall. Create havoc using an array of hilarious gadgets, pranks, and outrageous antics, all while evading mall security in this unique and entertaining gaming experience.</item>
+        <item>Enter the blocky world of creativity and survival in Minecraft. This sandbox game allows players to explore, build, and survive in an open, procedurally generated world made entirely of blocks. Mine resources, craft tools, construct impressive structures, and encounter various creatures in a limitless world where your imagination is the only boundary.</item>
+        <item>Get ready for high-speed motorcycle racing action in MotoGP 2023. This realistic racing simulator offers the chance to race on official MotoGP circuits, experience authentic bike physics, and compete against top riders in the world. Fine-tune your skills, customize your bike, and chase victory on the asphalt in this thrilling motorsport simulation.</item>
+        <item> Immerse yourself in the world of Naruto with Ninja Storm 4. This fighting game faithfully recreates the epic battles and story arcs from the popular anime and manga series. Play as your favorite Naruto characters, unleash their unique jutsu techniques, and engage in visually stunning battles that capture the essence of the series.</item>
+        <item>Feel the adrenaline rush in Need for Speed, a renowned racing franchise. This series offers intense street racing experiences with an array of customizable cars and thrilling pursuits. Compete in races, evade the law, and build your reputation as a top-notch street racer in a world of speed and style.</item>
+        <item>Take to the soccer field and showcase your football skills in PES 2023. This sports simulation game offers realistic gameplay, stunning graphics, and a wide selection of teams and players. Build your dream team, master the art of precision passing and shooting, and lead your club to victory in various leagues and competitions.</item>
+        <item> Step into the rugged, Wild West world of Red Dead Redemption 2. This epic action-adventure game takes you on a journey through the American heartland in the late 1800s. You assume the role of Arthur Morgan, an outlaw and member of the Van der Linde gang, as you navigate the complexities of the changing world around you. With stunning visuals, a gripping narrative, and a vast open-world environment, Red Dead Redemption 2 offers an immersive experience that combines breathtaking landscapes, intense gunfights, and moral choices that shape your destiny.</item>
+        <item>Prepare for a heart-pounding survival horror experience in Resident Evil 4. As special agent Leon S. Kennedy, your mission is to rescue the President\'s daughter from a mysterious and sinister cult in a remote European village. This critically acclaimed game revolutionized the survival horror genre with its over-the-shoulder perspective, intense action, and terrifying encounters with grotesque creatures. Solve puzzles, upgrade your arsenal, and uncover the dark secrets that lurk in the shadows as you fight for survival in a relentless pursuit of both horror and action.</item>
+        <item> Swing into action as the iconic web-slinger in Spider-Man. This open-world action-adventure game allows you to become the friendly neighborhood hero, Peter Parker. Traverse the bustling streets of New York City, using your web-swinging abilities and combat skills to thwart crime and take down notorious supervillains. With a gripping storyline, stunning visuals, and fluid web-swinging mechanics, Spider-Man offers a thrilling experience that captures the essence of one of Marvel most beloved characters.</item>
+        <item>Experience the mind-bending world of Split, a unique and challenging puzzle game. In Split, you control two characters simultaneously, each moving in opposite directions. Your goal is to navigate through intricate mazes, avoid obstacles, and solve complex puzzles by coordinating the movements of both characters. With its minimalist design and innovative gameplay mechanics, Split offers a thought-provoking and intellectually stimulating gaming experience.</item>
+        <item>Enter the surreal and dreamlike world of Suicide Guy, a first-person puzzle adventure game with a dark sense of humor. You play as a man trapped in his own dreams, trying to wake up by solving a series of bizarre and often absurd puzzles. Explore a variety of dreamscapes, from a towering stack of giant burgers to a haunted mansion, all while interacting with strange objects and quirky characters. With its unconventional approach to puzzle-solving and a touch of dark comedy, Suicide Guy offers a unique and entertaining gaming experience that challenges both your wit and imagination.</item>
+
+    </string-array>
+
+    //Price
+    <string-array name="data_price">
+        <item>Rp 49.990</item>
+        <item>Rp 49.990</item>
+        <item>Rp 149.990</item>
+        <item>Rp 59.990</item>
+        <item>Rp 99.990</item>
+        <item>Rp 149.990</item>
+        <item>Rp 149.990</item>
+        <item>Rp 149.990</item>
+        <item>Rp 149.990</item>
+        <item>Rp 149.990</item>
+        <item>Rp 299.990</item>
+        <item>Rp 149.990</item>
+        <item>Rp 149.990</item>
+        <item>Rp 49.990</item>
+        <item>Rp 49.990</item>
+
+    </string-array>
+
+
+    //Release Date
+    <string-array name="data_release">
+        <item>February 17, 2023</item>
+        <item>March 8, 2023</item>
+        <item>February 14, 2019</item>
+        <item>November 17, 2009</item>
+        <item>June 22, 2023</item>
+        <item>November 18, 2011</item>
+        <item>June 1, 2023</item>
+        <item> February 4, 2016</item>
+        <item>November 8, 2019</item>
+        <item>September 30, 2022</item>
+        <item>October 26, 2018</item>
+        <item>March 21, 2005</item>
+        <item>November 12, 2020</item>
+        <item>May 26, 2023</item>
+        <item>October 27, 2018</item>
+
+    </string-array>
+
+    //Source of Photo
+    <integer-array name="data_photo">
+        <item>@drawable/aaquarist</item>
+        <item>@drawable/endlessmemories</item>
+        <item>@drawable/jumpforce</item>
+        <item>@drawable/left4dead2</item>
+        <item>@drawable/mallofmayhem</item>
+        <item>@drawable/minecraft</item>
+        <item>@drawable/motogp2023</item>
+        <item>@drawable/narutoninjastorm</item>
+        <item>@drawable/needforspeed</item>
+        <item>@drawable/pes2023</item>
+        <item>@drawable/redredemption2</item>
+        <item>@drawable/residentevil4</item>
+        <item>@drawable/spiderman</item>
+        <item>@drawable/split</item>
+        <item>@drawable/suicideguy</item>
+    </integer-array>
+</resources>

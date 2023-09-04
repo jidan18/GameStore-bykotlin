@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    tools:context=".AboutActivity">
+
+    <!-- Elemen untuk mengelompokkan tampilan dalam layout vertikal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <!-- Garis horizontal untuk pemisah -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="#CFCFCF" />
+
+        <!-- Bagian atas dengan gambar profil, nama, dan email -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:orientation="horizontal">
+
+            <!-- Gambar profil -->
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/mypp2" />
+
+            <!-- Informasi nama dan email -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Jidan Fatahillah"
+                    android:id="@+id/tv_nama"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="jidanfatahillah123@gmail.com"
+                    android:id="@+id/tv_email"
+                    android:textColor="#B5B4B4"
+                    android:textSize="16sp"
+                    android:layout_marginTop="-5dp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Garis horizontal untuk pemisah -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CFCFCF"
+            android:layout_marginTop="2dp" />
+
+        <!-- Bagian alamat -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/editprofile"
+            android:clickable="true"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal">
+
+            <!-- Ikona untuk alamat -->
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/propil" />
+
+            <!-- Text alamat -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Tangerang Selatan - Banten"
+                android:textColor="@color/black"
+                android:layout_marginStart="18dp"
+                android:layout_weight="1"
+                android:layout_marginTop="2dp"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <!-- Garis horizontal untuk pemisah -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CFCFCF"
+            android:layout_marginTop="2dp" />
+
+        <!-- Bagian pesanan -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/order"
+            android:clickable="true"
+            android:orientation="horizontal">
+            <!-- Ikona untuk pesanan -->
+            <ImageView
+                android:layout_marginStart="10dp"
+                android:layout_width="25dp"
+                android:background="@drawable/propil"
+                android:layout_height="25dp"
+                android:contentDescription="TODO" />
+
+            <!-- Text nomor pesanan -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="MD - 09"
+                android:textColor="@color/black"
+                android:layout_marginLeft="18dp"
+                android:layout_weight="1"
+                android:layout_marginTop="2dp"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <!-- Garis horizontal untuk pemisah -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CFCFCF"
+            android:layout_marginTop="2dp" />
+
+        <!-- Bagian tautan ke GitHub -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:clickable="true"
+            android:orientation="horizontal">
+            <!-- Ikona GitHub -->
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="25dp"
+                android:background="@drawable/propil"
+                android:layout_height="25dp"/>
+
+            <!-- Tautan ke GitHub -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="https://github.com/jidan18"
+                android:textColor="@color/black"
+                android:layout_marginLeft="18dp"
+                android:layout_weight="1"
+                android:layout_marginTop="2dp"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <!-- Garis horizontal untuk pemisah -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CFCFCF"
+            android:layout_marginTop="2dp" />
+
+    </LinearLayout>
+</RelativeLayout>
